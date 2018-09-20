@@ -10,7 +10,7 @@ else
     line_position << "#{count}.#{customer}"
     counter + = 1
 end
-
+puts "the line is currently: #{line_position.join("")}"
 end
 
 def take_a_number( array,name)
