@@ -12,6 +12,7 @@ else
 end
 puts "the line is currently: #{line_position.join("")}"
 end
+end
 
 def take_a_number( array,name)
   array << name
@@ -26,6 +27,5 @@ def now_serving(katz_deli)
   else
  puts "Currently serving #{katz_deli.first}."
   katz_deli.shift
-end
 end
 end
