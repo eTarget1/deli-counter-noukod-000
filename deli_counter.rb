@@ -8,7 +8,7 @@ else
   counter= 1
   katz_deli.each do | customer|
     line_position << "#{count}.#{customer}"
-    counter + = 1
+  #  counter + = 1
 end
 puts "the line is currently: #{line_position.join("")}"
 end
