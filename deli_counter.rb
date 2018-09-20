@@ -18,13 +18,6 @@ def current_place(deli_line, name)
   end
 end
 
-take_a_number(deli_line, "Logan")
-take_a_number(deli_line, "Brent")
-take_a_number(deli_line, "Susan")
-take_a_number(deli_line, "Alfred")
-take_a_number(deli_line, "Erin")
-take_a_number(deli_line, "Shannon")
-
 while deli_line.length > 0
   now_serving(deli_line)
   sleep(2)
