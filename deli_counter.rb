@@ -7,7 +7,7 @@ if  katz_deli.empty?
 else
   counter= 1
   katz_deli.each do | customer|
-    line_position << "#{count}"
+    line_position << "#{count}.#{customer}"
 
 end
 end
