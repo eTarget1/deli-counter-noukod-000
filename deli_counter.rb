@@ -18,7 +18,7 @@ def take_a_number( array,name)
   array << name
     position = array.length
     puts "Welcome, #{name}! You are number #{position} in line."
-    position + 1
+    
 end
 
 def now_serving(katz_deli)
