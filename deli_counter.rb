@@ -12,6 +12,9 @@ def take_a_number( array,name)
     position - 1
 end
 
-def now_serving(line)
+def now_serving(katz_deli)
+  if katz_deli.empty?
+    puts "There is nobody waiting to be served!".
  puts "Currently serving #{line.shift}"
+ 
 end
